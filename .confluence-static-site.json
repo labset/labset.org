@@ -1,0 +1,10 @@
+{
+  "title": "labset.org",
+  "iconUrl": "/assets/viqueen-logo.png",
+  "name": "/vi",
+  "theme": {
+    "name": "labset.org",
+    "backgroundColor": "rgb(9, 30, 66)",
+    "highlightColor": "rgb(255, 139, 0)"
+  }
+}

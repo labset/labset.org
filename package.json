@@ -7,9 +7,20 @@
   "license": "Apache-2.0",
   "private": true,
   "scripts": {
+    "site:env": "confsite env",
+    "site:extract": "confsite extract LABSETORG",
+    "site:build": "confsite build LABSETORG --assets ./assets",
+    "site:firebase": "firebase",
+    "site:firebase:local": "firebase emulators:start",
+    "site:firebase:preview": "firebase hosting:channel:deploy",
+    "site:firebase:deploy": "firebase deploy --only hosting",
+    "format:check": "prettier --check .",
+    "format": "prettier --check --write .",
     "firebase": "firebase"
   },
   "devDependencies": {
-    "firebase-tools": "^13.11.2"
+    "@labset/confluence-static-site": "^1.4.0",
+    "firebase-tools": "^13.11.2",
+    "prettier": "^3.3.1"
   }
 }
