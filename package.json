@@ -7,6 +7,7 @@
   "license": "Apache-2.0",
   "private": true,
   "scripts": {
+    "build": "yarn site:extract && yarn site:build",
     "site:env": "confsite env",
     "site:extract": "confsite extract LABSETORG",
     "site:build": "confsite build LABSETORG --assets ./assets",

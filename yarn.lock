@@ -2372,9 +2372,9 @@
     iconv-lite "^0.6.3"
 
 "@labset/confluence-static-site@^1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@labset/confluence-static-site/-/confluence-static-site-1.4.0.tgz#29c8f008d3cfe08220d96ccda688027a36347bda"
-  integrity sha512-rmCjRdXCRiv/QtLgbM6Gmo7St5rj9YvkdWOJG0UC96ezlQql8z0qFaymSwtrcINqT8Phqc/DnFBvgealSOsbXg==
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@labset/confluence-static-site/-/confluence-static-site-1.4.1.tgz#a4d47ddc37e8302224908ad8bf7defc31fd90bbb"
+  integrity sha512-O+rZ14Tt3DJnNeXTq610F6vWSN7bUjap51QMBVfSrU005t3SjBH0Py1y5dDogTd4Vkr5YOKd+xbQOH22roRdJQ==
   dependencies:
     "@atlaskit/atlassian-navigation" "^3.6.2"
     "@atlaskit/breadcrumbs" "^12.1.1"
